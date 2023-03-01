@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
 
-nav a {
+.jumbotron{
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    font-size: 20px;
+    color: beige;
+}
+
+nav{
+    background-color: #00a2c6;
+    padding: 5px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a{
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: beige;
  }
 
  nav a:hover{
@@ -12,14 +32,38 @@ nav a {
 
 body{
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h2, h3{
     color: #00a2c6;
 }
 
+main{
+    padding: 20px;
+}
+
 .profile header{
     text-align: center;
+}
+
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile img{
+    width: 200px;
 }
 
 footer{
